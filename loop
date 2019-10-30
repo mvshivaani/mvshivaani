@@ -1,0 +1,4 @@
+for names in dataset:
+        if dataset[names].dtypes == 'float64':
+            dataset[names].plot(kind='box')
+            plt.show()
